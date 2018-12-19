@@ -1,0 +1,140 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "create new account by email",
+        "description": "",
+        "id": "create-account;create-new-account-by-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 82425954,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BDDCreateAccountTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4815229326,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on the page create account",
+            "match": {
+              "location": "BDDCreateAccountTest.user_is_on_the_page_create_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 690814731,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters \"cong nghiem\" and \"nghiem@gmail.com\" and \"0987776666\" and \"12345687\" and \"12345687\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cong nghiem",
+                  "offset": 13
+                },
+                {
+                  "val": "nghiem@gmail.com",
+                  "offset": 31
+                },
+                {
+                  "val": "0987776666",
+                  "offset": 54
+                },
+                {
+                  "val": "12345687",
+                  "offset": 71
+                },
+                {
+                  "val": "\"12345687\"",
+                  "offset": 85
+                }
+              ],
+              "location": "BDDCreateAccountTest.user_enters_and_and_and_and(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104066161,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user select checkbox gender",
+            "match": {
+              "location": "BDDCreateAccountTest.user_select_checkbox_gender()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141065783,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select country",
+            "match": {
+              "location": "BDDCreateAccountTest.user_select_country()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95859881,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user select checkbox subscriptions",
+            "match": {
+              "location": "BDDCreateAccountTest.user_select_checkbox_subscriptions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5746701861,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click submit",
+            "match": {
+              "location": "BDDCreateAccountTest.user_click_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63520102,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "gets confirmation",
+            "match": {
+              "location": "BDDCreateAccountTest.gets_confirmation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account",
+    "description": "",
+    "id": "create-account",
+    "keyword": "Feature",
+    "uri": "features/CreateAccount.feature",
+    "tags": []
+  }
+]

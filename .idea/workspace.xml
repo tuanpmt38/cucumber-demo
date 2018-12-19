@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee4f63d2-ea79-4afa-a539-ee4f5031a8a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo-cucumber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/CreateAccount.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsonOutput/login.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/CreateAccountTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/LoginTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/NewAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/LoginPageFacetory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/smocktest/LoginTestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/smocktest/PageTestJunit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/BDDCreateAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/BDDLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/LoginDDT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/LoginFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/NewAccountDDT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/CSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/DrivenFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/conf/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/config/ConfigLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/config/LocaleConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/config/ServerSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/controller/DeliveryOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/controller/MerchantPickupAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/controller/OrderCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/controller/TransactionHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/model/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/model/DeliveryOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/model/DeliveryOrderFee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/model/Merchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/model/MerchantPickupAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/model/OrderComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/model/TransactionHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/pagination/MetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/pagination/PaginationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/repository/DeliveryOrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/repository/MerchantController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/repository/MerchantPickupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/repository/OrderCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/service/DeliveryOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/service/MerchantPickupAddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/service/MerchantService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/service/OrderCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/userprincipal/UserPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/utils/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/utils/ConnectApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-restapi/src/main/java/com/example/demorestapi/utils/ConvertObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/cucumberTest/LoginTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/demo/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/demo/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/demo/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/demo/NewAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/demo/Panda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/pages/LoginPageFacetory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/smocketest/ATagsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/smocketest/LoginTestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/smocketest/PageTestJunit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/stepDefinitions/BDDLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/test/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/test/LoginDDT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/test/LoginFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/test/NewAccountDDT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/utils/CSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/utils/DrivenFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new-selenium/src/utils/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium_demo/src/TestSelenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread/src/DateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread/src/HashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread/src/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread/src/ThreadSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../delivery.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/DeliveryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/config/ConfigLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/config/LocaleConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/config/ServerSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/controller/DeliveryOrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/controller/MerchantController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/controller/MerchantPickupAddressController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/exceptionhandling/MessageError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/exceptionhandling/global/CustomRestExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/exceptionhandling/global/MessagerError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/exceptionhandling/merchant/MerchantException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/exceptionhandling/merchant/MerchantNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/exceptionhandling/pickupaddress/MerchantPickupAddressException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/exceptionhandling/pickupaddress/MerchantPickupAddressNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/filter/AuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/AuditOrderFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/DeliveryFeature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/DeliveryOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/DeliveryOrderFee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/FeePolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/Merchant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/MerchantOption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/MerchantPickupAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/OrderComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/ServiceFee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/model/TransactionHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/repository/DeliveryOrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/repository/MerchantPickupAddressRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/repository/MerchantRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/security/UserPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/service/DeliveryOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/service/MerchantPickupAddressService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/service/MerchantService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/service/impl/DeliveryOrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/service/impl/MerchantPickupAddressServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/service/impl/MerchantServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/utils/ConnectApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/utils/LocationPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/utils/MetaData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/utils/Pagination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/vn/shippo/delivery/merchant/utils/PickupAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/i18n/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/i18n/messages_vi.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/vn/shippo/delivery/merchant/DeliveryApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/vn/shippo/delivery/merchant/TestSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/vn/shippo/delivery/merchant/TestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/vn/shippo/delivery/merchant/controller/MerchantPickupAddressControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/vn/shippo/delivery/merchant/service/MerchantPickupAddressServiceTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/BDDCreateAccountTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4067#4068#0" expanded="true" />
+                <element signature="e#4096#4097#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/BDDLoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="69" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cucumberTest/CreateAccountTestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsonOutput/createAccount.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1260" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>throw new PendingException();</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/DrivenFatory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/DrivenFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/CSV.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/Excel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/demo/DataReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/demo/NewAccount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPageFacetory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/NewAccountDDT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/LoginFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/smocktest/LoginTestNG.java" />
+        <option value="$PROJECT_DIR$/src/test/java/smocktest/PageTestJunit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/LoginDDT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pom/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/BDDLoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinations/BDDLoginTest.java" />
+        <option value="$PROJECT_DIR$/features/Login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/cucumberTest/CreateAccountTestRunner.java" />
+        <option value="$PROJECT_DIR$/features/CreateAccount.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/cucumberTest/LoginTestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/BDDCreateAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/BDDLoginTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-cucumber" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-cucumber" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="426" />
+    <option name="y" value="162" />
+    <option name="width" value="1315" />
+    <option name="height" value="756" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo-cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-cucumber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="jsonOutput" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumberTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545207336284" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CreateAccountTestRunner">
+    <configuration name="Feature: Demo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/features/Demo.feature" />
+      <option name="GLUE" value="stepdefinations" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="demo-cucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: create new account by email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/features/CreateAccount.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="demo-cucumber" />
+      <option name="NAME_FILTER" value="^create new account by email$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^create new account by email$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: create new account by email" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: the user should be able to login with correct username and correct password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/features/Login.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="demo-cucumber" />
+      <option name="NAME_FILTER" value="^the user should be able to login with correct username and correct password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^the user should be able to login with correct username and correct password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: the user should be able to login with correct username and correct password" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: the user should be able to login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/features/Login.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="demo-cucumber" />
+      <option name="NAME_FILTER" value="^the user should be able to login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^the user should be able to login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: the user should be able to login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateAccountTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumberTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumberTest" />
+      <option name="MAIN_CLASS_NAME" value="cucumberTest.CreateAccountTestRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumberTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumberTest" />
+      <option name="MAIN_CLASS_NAME" value="cucumberTest.LoginTestRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CreateAccountTestRunner" />
+        <item itemvalue="JUnit.LoginTestRunner" />
+        <item itemvalue="Cucumber java.Scenario: create new account by email" />
+        <item itemvalue="Cucumber java.Scenario: the user should be able to login" />
+        <item itemvalue="Cucumber java.Scenario: the user should be able to login with correct username and correct password" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee4f63d2-ea79-4afa-a539-ee4f5031a8a2" name="Default Changelist" comment="" />
+      <created>1545102321303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545102321303</updated>
+      <workItem from="1545102324650" duration="28622000" />
+      <workItem from="1545183457175" duration="14654000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CreateAccountTestRunner - 2018.12.19 at 14h 47m 42s.xml">
+      <configuration name="CreateAccountTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateAccountTestRunner - 2018.12.19 at 14h 51m 02s.xml">
+      <configuration name="CreateAccountTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateAccountTestRunner - 2018.12.19 at 14h 53m 19s.xml">
+      <configuration name="CreateAccountTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateAccountTestRunner - 2018.12.19 at 14h 54m 05s.xml">
+      <configuration name="CreateAccountTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateAccountTestRunner - 2018.12.19 at 14h 55m 15s.xml">
+      <configuration name="CreateAccountTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateAccountTestRunner - 2018.12.19 at 14h 56m 35s.xml">
+      <configuration name="CreateAccountTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateAccountTestRunner - 2018.12.19 at 14h 57m 05s.xml">
+      <configuration name="CreateAccountTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateAccountTestRunner - 2018.12.19 at 14h 57m 55s.xml">
+      <configuration name="CreateAccountTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateAccountTestRunner - 2018.12.19 at 14h 58m 32s.xml">
+      <configuration name="CreateAccountTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateAccountTestRunner - 2018.12.19 at 14h 59m 03s.xml">
+      <configuration name="CreateAccountTestRunner" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43276000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45891473" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32947233" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32713178" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32713178" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3299293" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/DrivenFatory.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Excel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/CSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/DrivenFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pom/DashboardPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/PageFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/demo/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/smocktest/LoginTestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/smocktest/PageTestJunit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/NewAccountDDT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/LoginDDT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pom/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pom/LoginPageFacetory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.attach_pid32283" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1374">
+          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Demo.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/demo/NewAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-655">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/LoginFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar!/cucumber/runtime/RuntimeGlue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonOutput/login.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/WebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/CreateAccount.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberTest/LoginTestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/BDDCreateAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4067#4068#0" expanded="true" />
+            <element signature="e#4096#4097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/BDDLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="69" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberTest/CreateAccountTestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonOutput/createAccount.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260" />
+      </provider>
+    </entry>
+  </component>
+</project>
